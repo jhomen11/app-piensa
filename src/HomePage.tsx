@@ -15,7 +15,7 @@ export const HomePage = () => {
         <div className="max-w-4xl mx-auto p-4">
           <div className="text-center mb-8 pt-6">
             <div className="inline-flex items-center gap-1 bg-white/20 backdrop-blur-md px-8 py-4 rounded-2xl shadow-2xl border-2 border-white/30">
-              <PiIcon className="w-16 h-16 text-white drop-shadow-lg" />
+              <h1 className="text-6xl font-bold text-white drop-shadow-lg tracking-tight" style={{ fontFamily: 'serif' }}>π</h1>
               <h1 className="text-5xl font-bold text-white drop-shadow-lg tracking-tight">ensa</h1>
             </div>
             <p className="text-white/90 text-lg mt-3 font-medium drop-shadow-md">Aprende geometría jugando</p>
