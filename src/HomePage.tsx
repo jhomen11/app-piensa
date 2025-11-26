@@ -2,7 +2,6 @@ import { useState } from "react"
 import { Informacion } from "./Informacion"
 import { Juego } from "./Juego"
 import { Creadores } from "./Creadores"
-import PiIcon from "./components/PiIcon"
 
 type TabKey = "informacion" | "juego" | "creadores"
 
