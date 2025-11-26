@@ -12,7 +12,7 @@ interface Nivel {
 const niveles: Nivel[] = [
   { imagen: '/recursos/Equilatero.png', opciones: ['Isósceles', 'Equilátero', 'Escaleno'], correcta: 'Equilátero', pista: 'Todos sus lados son iguales.' },
   { imagen: '/recursos/isosceles.png', opciones: ['Rectángulo', 'Isósceles', 'Obtusángulo'], correcta: 'Isósceles', pista: 'Tiene dos lados iguales y uno desigual.' },
-  { imagen: '/recursos/cateto_adyacente.png', opciones: ['Cateto opuesto', 'Cateto adyacente', 'Hipotenusa'], correcta: 'Cateto adyacente', pista: 'Es el lado que forma el ángulo, pero no es la hipotenusa.' },
+  { imagen: '/recursos/cateto_adyacente.png', opciones: ['Cateto opuesto', 'Cateto adyacente', 'Altura'], correcta: 'Cateto adyacente', pista: 'Es el cateto que está junto al ángulo marcado.' },
   { texto: 'Un triángulo con un ángulo de 90 grados se llama...', opciones: ['Rectángulo', 'Agudo', 'Obtusángulo'], correcta: 'Rectángulo', pista: 'Piensa en una esquina perfecta.' },
   { texto: 'La razón trigonométrica que se calcula como cateto opuesto / hipotenusa es...', opciones: ['Seno', 'Coseno', 'Tangente'], correcta: 'Seno', pista: 'Es el lado opuesto al ángulo dividido por la hipotenusa.' },
   { texto: 'En un triángulo rectángulo, la hipotenusa siempre es...', opciones: ['El lado más largo', 'El lado más corto', 'Un cateto'], correcta: 'El lado más largo', pista: 'Es la hipotenusa.' },
