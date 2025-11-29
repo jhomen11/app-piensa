@@ -35,69 +35,74 @@ export const datosTriangulos: JuegoData = {
     {
       id: 1,
       nombre: "Sección 1: Tipos de Triángulos",
-      audioFondo: "/recursos/FondoTriangulos1.mp3",
+      audioFondo: "https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/FondoTriangulos1.mp3",
       preguntas: [
         {
           id: 1,
           imagen: '/recursos/trigonometria/Sec1_Ejercicio1.jpg',
           texto: '¿Qué tipo de triángulo es?',
           opciones: [
-            { texto: 'Obtusángulo', esCorrecta: false },
-            { texto: 'Rectángulo', esCorrecta: true },
-            { texto: 'Equilátero', esCorrecta: false }
+            { texto: 'Obtusángulo', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec1_Ejercicio1.jpg' },
+            { texto: 'Rectángulo', esCorrecta: true, imagenExplicacion: '/recursos/trigonometria/Sec1_Ejercicio1.jpg' },
+            { texto: 'Equilátero', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec1_Ejercicio1.jpg' }
           ],
-          pista: 'Uno de sus ángulos mide 90°.'
+          pista: 'Uno de sus ángulos mide 90°.',
+          imagenExplicacionCorrecta: '/recursos/trigonometria/Sec1_Ejercicio1.jpg'
         },
         {
           id: 2,
           imagen: '/recursos/trigonometria/Sec1_Ejercicio2.png',
           texto: '¿Qué tipo de triángulo es?',
           opciones: [
-            { texto: 'Escaleno', esCorrecta: false },
-            { texto: 'Equilátero', esCorrecta: true },
-            { texto: 'Isósceles', esCorrecta: false }
+            { texto: 'Escaleno', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec1_Ejercicio2.png' },
+            { texto: 'Equilátero', esCorrecta: true, imagenExplicacion: '/recursos/trigonometria/Sec1_Ejercicio2.png' },
+            { texto: 'Isósceles', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec1_Ejercicio2.png' }
           ],
-          pista: 'Es el único donde los tres lados son iguales.'
+          pista: 'Es el único donde los tres lados son iguales.',
+          imagenExplicacionCorrecta: '/recursos/trigonometria/Sec1_Ejercicio2.png'
         },
         {
           id: 3,
           imagen: '/recursos/trigonometria/Sec1_Ejercicio3.jpg',
           texto: '¿Qué tipo de triángulo es?',
           opciones: [
-            { texto: 'Acutángulo', esCorrecta: true },
-            { texto: 'Rectángulo', esCorrecta: false },
-            { texto: 'Obtusángulo', esCorrecta: false }
+            { texto: 'Acutángulo', esCorrecta: true, imagenExplicacion: '/recursos/trigonometria/Sec1_Ejercicio3.jpg' },
+            { texto: 'Rectángulo', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec1_Ejercicio3.jpg' },
+            { texto: 'Obtusángulo', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec1_Ejercicio3.jpg' }
           ],
-          pista: 'Cuando todos sus ángulos son menores de 90°.'
+          pista: 'Cuando todos sus ángulos son menores de 90°.',
+          imagenExplicacionCorrecta: '/recursos/trigonometria/Sec1_Ejercicio3.jpg'
         },
         {
           id: 4,
           imagen: '/recursos/trigonometria/Sec1_Ejercicio4.jpg',
           texto: '¿Qué tipo de triángulo es?',
           opciones: [
-            { texto: 'Obtusángulo', esCorrecta: true },
-            { texto: 'Rectángulo', esCorrecta: false },
-            { texto: 'Acutángulo', esCorrecta: false }
+            { texto: 'Obtusángulo', esCorrecta: true, imagenExplicacion: '/recursos/trigonometria/Sec1_Ejercicio4.jpg' },
+            { texto: 'Rectángulo', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec1_Ejercicio4.jpg' },
+            { texto: 'Acutángulo', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec1_Ejercicio4.jpg' }
           ],
-          pista: 'Tiene un ángulo mayor de 90°.'
+          pista: 'Tiene un ángulo mayor de 90°.',
+          imagenExplicacionCorrecta: '/recursos/trigonometria/Sec1_Ejercicio4.jpg'
         },
         {
           id: 5,
           imagen: '/recursos/trigonometria/Sec1_Ejercicio5.jpg',
           texto: '¿Qué tipo de triángulo es?',
           opciones: [
-            { texto: 'Isósceles', esCorrecta: true },
-            { texto: 'Equilátero', esCorrecta: false },
-            { texto: 'Escaleno', esCorrecta: false }
+            { texto: 'Isósceles', esCorrecta: true, imagenExplicacion: '/recursos/trigonometria/Sec1_Ejercicio5.jpg' },
+            { texto: 'Equilátero', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec1_Ejercicio5.jpg' },
+            { texto: 'Escaleno', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec1_Ejercicio5.jpg' }
           ],
-          pista: 'Se reconoce porque tiene exactamente dos lados iguales.'
+          pista: 'Se reconoce porque tiene exactamente dos lados iguales.',
+          imagenExplicacionCorrecta: '/recursos/trigonometria/Sec1_Ejercicio5.jpg'
         }
       ]
     },
     {
       id: 2,
       nombre: "Sección 2: Razones Trigonométricas",
-      audioFondo: "/recursos/FondoTriangulos2.mp3",
+      audioFondo: "https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/FondoTriangulos2.mp3",
       preguntas: [
         {
           id: 6,
@@ -148,7 +153,7 @@ export const datosTriangulos: JuegoData = {
     {
       id: 3,
       nombre: "Sección 3: Aplicaciones",
-      audioFondo: "/recursos/FondoTriangulos3.mp3",
+      audioFondo: "https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/FondoTriangulos3.mp3",
       preguntas: [
         {
           id: 10,
@@ -207,54 +212,62 @@ export const datosTeoremas: JuegoData = {
     {
       id: 1,
       nombre: "Sección 1: Pitágoras y Trig Básica",
-      audioFondo: "/recursos/FondoTeoremas1.mp3",
+      audioFondo: "https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/FondoTeoremas1.mp3",
       preguntas: [
         {
           id: 1,
           texto: 'Según el teorema de Pitágoras, ¿cuál es la ecuación correcta para catetos 6 y 8?',
+          imagen: '/recursos/teorema/Sec1_PreguntaEje1.jpg',
           opciones: [
             { texto: 'c² = 6² + 8²', esCorrecta: true },
-            { texto: 'c = 6 + 8', esCorrecta: false },
-            { texto: 'c = 6² + 8²', esCorrecta: false }
+            { texto: 'c = 6 + 8', esCorrecta: false, imagenExplicacion: '/recursos/teorema/Sec1_IncorrectaB_Eje1.png' },
+            { texto: 'c = 6² + 8²', esCorrecta: false, imagenExplicacion: '/recursos/teorema/Sec1_IncorrectaC_Eje1.png' }
           ],
-          pista: 'La hipotenusa siempre aparece elevada al cuadrado.'
+          pista: 'La hipotenusa siempre aparece elevada al cuadrado.',
+          imagenExplicacionCorrecta: '/recursos/teorema/Sec1_CorrectaEje1.png'
         },
         {
           id: 2,
           texto: '¿Qué ecuación corresponde al teorema de Pitágoras para 9 y 12?',
+          imagen: '/recursos/teorema/Sec1_PreguntaEje2.jpg',
           opciones: [
             { texto: 'c² = 9² + 12²', esCorrecta: true },
-            { texto: 'c = 9 + 12', esCorrecta: false },
-            { texto: 'c = 9² + 12²', esCorrecta: false }
+            { texto: 'c = 9 + 12', esCorrecta: false, imagenExplicacion: '/recursos/teorema/Sec1_IncorrectaB_Eje2.png' },
+            { texto: 'c = 9² + 12²', esCorrecta: false, imagenExplicacion: '/recursos/teorema/Sec1_IncorrectaC_Eje2.png' }
           ],
-          pista: 'c² es la clave.'
+          pista: 'c² es la clave.',
+          imagenExplicacionCorrecta: '/recursos/teorema/Sec1_CorrectaEje2.png'
         },
         {
           id: 3,
           texto: '¿Cuál es el seno del ángulo θ si opuesto=5 e hipotenusa=13?',
+          imagen: '/recursos/teorema/Sec1_PreguntaEje3.jpg',
           opciones: [
             { texto: 'sin(θ) = 5/13', esCorrecta: true },
-            { texto: 'sin(θ) = 13/5', esCorrecta: false },
-            { texto: 'sin(θ) = 12/13', esCorrecta: false }
+            { texto: 'sin(θ) = 13/5', esCorrecta: false, imagenExplicacion: '/recursos/teorema/Sec1_IncorrectaB_Eje3.png' },
+            { texto: 'sin(θ) = 12/13', esCorrecta: false, imagenExplicacion: '/recursos/teorema/Sec1_IncorrectaC_Eje3.png' }
           ],
-          pista: 'Opuesto / Hipotenusa.'
+          pista: 'Opuesto / Hipotenusa.',
+          imagenExplicacionCorrecta: '/recursos/teorema/Sec1_CorrectaEje3.png'
         },
         {
           id: 4,
           texto: '¿Cuál es el coseno de θ si adyacente=7 e hipotenusa=25?',
+          imagen: '/recursos/teorema/Sec1_PreguntaEje4.jpg',
           opciones: [
             { texto: 'cos(θ) = 7/25', esCorrecta: true },
-            { texto: 'cos(θ) = 25/7', esCorrecta: false },
-            { texto: 'cos(θ) = 24/25', esCorrecta: false }
+            { texto: 'cos(θ) = 25/7', esCorrecta: false, imagenExplicacion: '/recursos/teorema/Sec1_IncorrectaB_Eje4.png' },
+            { texto: 'cos(θ) = 24/25', esCorrecta: false, imagenExplicacion: '/recursos/teorema/Sec1_IncorrectaC_Eje4.png' }
           ],
-          pista: 'Adyacente / Hipotenusa.'
+          pista: 'Adyacente / Hipotenusa.',
+          imagenExplicacionCorrecta: '/recursos/teorema/Sec1_CorrectaEje4.png'
         }
       ]
     },
     {
       id: 2,
       nombre: "Sección 2: Relaciones Geométricas",
-      audioFondo: "/recursos/FondoTeoremas2.mp3",
+      audioFondo: "https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/FondoTeoremas2.mp3",
       preguntas: [
         {
           id: 5,
@@ -301,7 +314,7 @@ export const datosTeoremas: JuegoData = {
     {
       id: 3,
       nombre: "Sección 3: Selección de Teoremas",
-      audioFondo: "/recursos/FondoTeoremas3.mp3",
+      audioFondo: "https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/FondoTeoremas3.mp3",
       preguntas: [
         {
           id: 9,

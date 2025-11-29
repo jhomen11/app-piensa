@@ -35,7 +35,7 @@ export const Creadores = () => {
             <div className="px-6 py-5 bg-purple-50 animate-fade-in">
               <div className="flex flex-col items-center gap-4">
                 <img 
-                  src="/recursos/grupo.jpg" 
+                  src="/recursos/img/LogoGrupo.png" 
                   alt="Grupo REVELUV" 
                   className="max-w-full h-auto rounded-xl object-contain shadow-xl border-4 border-purple-300 bg-white"
                 />
@@ -68,7 +68,7 @@ export const Creadores = () => {
             <div className="px-6 py-5 bg-blue-50 animate-fade-in">
               <div className="flex flex-col items-center gap-4">
                 <img 
-                  src="/recursos/integrante1.jpg" 
+                  src="/recursos/img/David.png" 
                   alt="Integrante 1" 
                   className="w-48 h-48 rounded-full object-cover shadow-xl border-4 border-blue-300"
                 />
@@ -96,7 +96,7 @@ export const Creadores = () => {
             <div className="px-6 py-5 bg-green-50 animate-fade-in">
               <div className="flex flex-col items-center gap-4">
                 <img 
-                  src="/recursos/integrante2.jpg" 
+                  src="/recursos/img/Vicente.png" 
                   alt="Integrante 2" 
                   className="w-48 h-48 rounded-full object-cover shadow-xl border-4 border-green-300"
                 />
@@ -124,7 +124,7 @@ export const Creadores = () => {
             <div className="px-6 py-5 bg-orange-50 animate-fade-in">
               <div className="flex flex-col items-center gap-4">
                 <img 
-                  src="/recursos/integrante3.jpg" 
+                  src="/recursos/img/Edgar.png" 
                   alt="Integrante 3" 
                   className="w-48 h-48 rounded-full object-cover shadow-xl border-4 border-orange-300"
                 />
@@ -152,7 +152,7 @@ export const Creadores = () => {
             <div className="px-6 py-5 bg-pink-50 animate-fade-in">
               <div className="flex flex-col items-center gap-4">
                 <img 
-                  src="/recursos/integrante4.jpg" 
+                  src="/recursos/img/Sebas.png" 
                   alt="Integrante 4" 
                   className="w-48 h-48 rounded-full object-contain shadow-xl border-4 border-pink-300 bg-white"
                 />

@@ -109,10 +109,10 @@ export const JuegoDesafio = () => {
   return (
     <div className="w-full min-h-screen flex items-center justify-center bg-gray-900">
       <audio ref={audioFondoRef} loop>
-        <source src="/recursos/DesafioFondo.mp3" type="audio/mpeg" />
+        <source src="https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/DesafioFondo.mp3" type="audio/mpeg" />
       </audio>
       <audio ref={audioFinalRef}>
-        <source src="/recursos/DesafioFinalFondo.mp3" type="audio/mpeg" />
+        <source src="https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/DesafioFinalFondo.mp3" type="audio/mpeg" />
       </audio>
 
       <div className="w-full max-w-2xl p-4">
