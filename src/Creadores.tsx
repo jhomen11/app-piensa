@@ -58,7 +58,7 @@ export const Creadores = () => {
           >
             <span className="flex items-center gap-3">
               <span className="text-2xl">👤</span>
-              <span>Integrante 1</span>
+              <span>David Mendoza</span>
             </span>
             <span className={`text-2xl transition-transform duration-300 ${abierto === 'integrante1' ? 'rotate-180' : ''}`}>
               ▼
@@ -86,7 +86,7 @@ export const Creadores = () => {
           >
             <span className="flex items-center gap-3">
               <span className="text-2xl">👤</span>
-              <span>Integrante 2</span>
+              <span>Vicente Campos</span>
             </span>
             <span className={`text-2xl transition-transform duration-300 ${abierto === 'integrante2' ? 'rotate-180' : ''}`}>
               ▼
@@ -114,7 +114,7 @@ export const Creadores = () => {
           >
             <span className="flex items-center gap-3">
               <span className="text-2xl">👤</span>
-              <span>Integrante 3</span>
+              <span>Edgar Villasmil</span>
             </span>
             <span className={`text-2xl transition-transform duration-300 ${abierto === 'integrante3' ? 'rotate-180' : ''}`}>
               ▼
@@ -142,7 +142,7 @@ export const Creadores = () => {
           >
             <span className="flex items-center gap-3">
               <span className="text-2xl">👤</span>
-              <span>Integrante 4</span>
+              <span>Sebastián Guzmán</span>
             </span>
             <span className={`text-2xl transition-transform duration-300 ${abierto === 'integrante4' ? 'rotate-180' : ''}`}>
               ▼

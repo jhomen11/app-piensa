@@ -1,0 +1,403 @@
+TEOREMAS
+SECCION 1
+Pregunta 1
+Según el teorema de Pitágoras, ¿cuál es la ecuación correcta?
+A) c2=62+82
+B) c=6+8
+C) c=62+82
+Correcta: A
+Explicación Correcta:
+
+Errores:
+B:
+
+C:
+
+Pista: En el teorema de Pitágoras, la hipotenusa siempre aparece elevada al cuadrado.
+
+
+Pregunta 2
+¿Qué ecuación corresponde al teorema de Pitágoras?
+A) c2=92+122
+B) c=9+12
+C) c=92+122
+Correcta: A
+Explicación Correcta:
+
+Errores:
+B:
+
+C:
+
+Pista: La opción correcta es la única donde c está elevada al cuadrado, tal como exige el teorema.
+Pregunta 3
+¿Cuál es el seno del ángulo θ?
+A) sin⁡(θ)=513
+B) sin⁡(θ)=135
+C) sin⁡(θ)=1213
+Correcta: A
+Explicación Correcta:
+
+Errores:
+B:
+C:
+
+Pista: El seno siempre es cateto opuesto dividido por la hipotenusa.
+Pregunta 4
+¿Cuál es el coseno de θ?
+A) cos⁡(θ)=725
+B) cos⁡(θ)=257
+C) cos⁡(θ)=2425
+Correcta: A
+Explicación Correcta:
+
+Errores:
+B:
+
+C:
+
+Pista: El coseno es adyacente sobre hipotenusa, nada más.
+
+
+SECCION 2
+Pregunta 1
+En un triángulo rectángulo con catetos de 8 y 15, ¿cuál es la ecuación correcta para calcular la hipotenusa?
+A) c2=82+152
+B) c=8+15
+C) c2=82-152
+Correcta: A
+Explicación Correcta
+
+Pista: Recuerda que para la hipotenusa siempre se suman los cuadrados de los catetos.
+
+Errores:
+B:
+
+C:
+
+
+Pregunta 2
+Si dos rectas paralelas son cortadas por dos transversales y los segmentos en la primera miden 6 y 9, y en la segunda 10 y x, ¿qué relación se usa?
+A) 6+9=10+x
+B) 69=10x
+C) 6⋅9=10⋅x
+Correcta: B
+Explicación Correcta:
+
+Errores:
+A:
+
+C:
+
+Pista: En rectas paralelas con transversales, los segmentos correspondientes siempre se relacionan por proporción, no por suma ni multiplicación directa.
+Pregunta 3
+Si una bisectriz divide el lado opuesto en segmentos 4 y 6, y el lado adyacente correspondiente mide 10, ¿qué relación debe cumplirse?
+A) 10x=46
+B) 10x=106 
+C) 10x=64
+Correcta: B
+
+Explicación Correcta:
+
+Errores:
+A:
+
+C:
+
+Pista: La bisectriz mantiene la misma proporción que los segmentos en los que divide el lado opuesto.
+Pregunta 4
+En un triángulo, el ángulo exterior mide 130° y uno de los ángulos interiores opuestos mide 50°. ¿Qué ecuación determina el otro ángulo interior opuesto?
+A) 130°=x
+B) 130°=50°-x
+C) 130°=50°+x
+Correcta: C
+Explicación Correcta:
+
+
+Errores:
+A:
+
+B:
+
+Pista: El ángulo exterior siempre es igual a la suma de los dos ángulos interiores opuestos.
+
+SECCION 3
+Pregunta 1
+Un triángulo rectángulo tiene un cateto de 9 cm y una hipotenusa de 15 cm. El ejercicio pide hallar el otro cateto.
+¿Qué teorema debes usar?
+A) Teorema del Seno
+B) Teorema del Coseno
+C) Teorema de Pitágoras 
+Correcta: C
+
+Errores:
+
+
+A:
+
+B:
+
+Pista: Cuando tienes cateto e hipotenusa y necesitas el otro cateto, solo hay un teorema que trabaja con los tres lados de un triángulo rectángulo
+Pregunta 2
+Se tiene un triángulo cualquiera, NO rectángulo, con lados 7 cm, 5 cm y un ángulo incluido de 40°. Se pide calcular el lado opuesto al ángulo.
+¿Qué teorema corresponde?
+A) Teorema de Pitágoras
+B) Teorema del Coseno 
+C) Teorema del Seno
+Correcta: B
+Explicación Correcta:
+
+Errores:
+A:
+
+C:
+
+Pista: Cuando tienes dos lados y el ángulo incluido, solo un teorema permite calcular el lado opuesto usando esa estructura.
+Pregunta 3
+En un triángulo cualquiera se conocen dos ángulos y un lado cualquiera. El problema pide hallar un lado opuesto a uno de los ángulos conocidos.
+¿Qué se debe usar?
+A) Teorema del Seno
+B) Teorema de Pitágoras
+C) Teorema del Coseno
+Correcta: A
+Explicación Correcta:
+
+Errores:
+B:
+
+C:
+
+Pista: Si conoces dos ángulos y un lado, la única forma de hallar otro lado es usando la proporción entre lados y senos de sus ángulos.
+
+Pregunta 4
+Un triángulo rectángulo tiene cateto adyacente = 12 y la hipotenusa = 13. Te piden hallar el ángulo que forma el cateto con la hipotenusa.
+¿Qué teorema o relación debes ocupar?
+A) Teorema del Coseno 
+B) Teorema del Seno
+C) Teorema de Pitágoras
+Correcta: A
+Explicación Correcta:
+
+
+Errores:
+B:
+
+C:
+
+Pista: Cuando buscas un ángulo y conoces adyacente e hipotenusa, debes usar la razón trigonométrica que conecta justamente esos dos lados.
+
+
+TRIGONOMETRIA
+SECCION 1
+Pregunta 1
+¿Qué tipo de triángulo es?
+A) Obtusángulo
+B) Rectángulo 
+C) Equilátero
+Correcta: B
+Explicación Correcta:
+
+Explicación si falla:
+A:
+
+B:
+
+Pista: Uno de sus ángulos mide 90°.
+
+
+
+Pregunta 2
+¿Qué tipo de triángulo es?
+A) Escaleno
+B) Equilátero 
+C) Isósceles
+Correcta : B
+Explicación correcta:
+
+Explicación si falla:
+A:
+
+C:
+
+Pista: Es el único donde los tres lados son iguales.
+
+
+
+Pregunta 3
+¿Qué tipo de triángulo es?
+A) Acutángulo 
+B) Rectángulo
+C) Obtusángulo
+Correcta: A
+Explicación Correcta:
+
+Explicación si falla:
+B: 
+
+C: 
+
+Pista: Cuando todos sus ángulos son menores de 90°.
+
+
+Pregunta 4
+¿Qué tipo de triángulo es?
+A) Obtusángulo 
+B) Rectángulo
+C) Acutángulo
+Correcta: A
+Explicación Correcta:
+
+Explicación si falla:
+B:
+
+C:
+
+Pista: Tiene un ángulo mayor de 90°.
+
+
+Pregunta 5
+¿Qué tipo de triángulo es?
+A) Isósceles 
+B) Equilátero
+C) Escaleno
+Correcta: A
+Explicación Correcta:
+
+Explicación si falla:
+B: 
+
+C:
+
+Pista: Se reconoce porque tiene exactamente dos lados iguales.
+
+
+SECCION 2
+Pregunta 1
+Si cos(θ) = 0, ¿cuál podría ser un valor de θ?
+A) 0°
+B) 90°
+C) 180°
+Respuesta correcta: B
+Explicación de correcta:
+
+Errores Explicados
+A:
+
+C:
+
+Pista: El coseno vale cero cuando el ángulo está justo entre los ejes, ni hacia la derecha ni hacia la izquierda.
+
+Pregunta 2
+Si un ángulo agudo tiene un seno de 12, ¿cuál puede ser su medida?
+A) 30° 
+B)45° 
+C) 60°
+Correcta: A
+Explicación correcta:
+
+
+
+Errores explicados
+B:
+
+C:
+
+Pista: El seno de 1/2 corresponde al ángulo más pequeño del trío 30°–45°–60°.
+
+Pregunta 3
+Si en un triángulo rectángulo el seno de θ es 3/5, ¿cuánto vale el coseno?
+A) 45
+B) 35
+C) 53
+Correcta: A
+Explicación correcta:
+
+
+Errores explicados
+B:
+
+C: 
+Pista: Si el seno es 3/5, completa el triángulo con Pitágoras para hallar el otro cateto y así obtener el coseno.
+Pregunta 4
+¿Cuál es la razón trigonométrica que se define como “cateto opuesto / cateto adyacente”? 
+A) Seno 
+B) Coseno 
+C) Tangente 
+Correcta: C
+Explicación Correcta: 
+
+
+Errores explicados
+A:
+
+B:
+
+Pista: La única razón que compara opuesto con adyacente es la que forma un cociente entre catetos.
+
+
+SECCION 3
+Pregunta 1
+Un árbol proyecta una sombra de 8 m. El ángulo con el sol es de 30°. ¿Cuánto mide el árbol?
+(usa tan 30° = 0.577)
+A) 4.6 m
+B) 8 m
+C) 4.62 m
+Correcta: C
+Explicación Correcta:
+
+
+Errores:
+A:
+
+B:
+
+
+Pista: Usa tan(30°) = altura / sombra, y solo una opción coincide al multiplicar 8 por 0.577.
+
+Pregunta 2
+2. Un escalador ve la cima con un ángulo de elevación de 45° a 20 m de la base. ¿Qué altura le falta por subir?
+A) 20 m
+B) 20√3
+C) 20 m (tan 45° = 1) 
+Correcta: C
+Explicación Correcta:
+
+Errores:
+A:
+
+B:
+
+Pista: Con 45°, la tangente vale 1, así que la altura será igual a la distancia horizontal.
+
+Pregunta 3
+3. Si en un triángulo rectángulo el seno de θ es 3/5, ¿cuánto vale el coseno?
+A) 4/5 
+B) 3/5
+C) 5/3
+Correcta: A
+Explicación Correcta:
+
+Errores:
+B:
+
+C:
+
+Pista: Si el opuesto es 3 y la hipotenusa 5, el adyacente debe ser el número que complete un triángulo.
+
+
+
+Pregunta 4
+4. En un triángulo rectángulo, un cateto mide 9 y el ángulo adyacente mide 60°. ¿Cuál es la hipotenusa?
+(usa cos 60° = 0.5)
+A) 4.5
+B) 18 
+C) 9
+Correcta: B
+Explicación Correcta:
+
+
+Errores:
+A:
+C: 
+
+Pista: Si conoces el adyacente y el ángulo, usa cos = adyacente/hipotenusa; solo una opción hace que al multiplicar la hipotenusa por 0.5 dé 9.

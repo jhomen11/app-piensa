@@ -69,7 +69,7 @@ export const Informacion = () => {
         </div>
 
         <div className="text-center mt-8 p-6 bg-linear-to-r from-blue-100 to-purple-100 rounded-xl border-2 border-blue-300">
-          <p className="text-2xl font-bold text-gray-800">¡Que comience la aventura! 🚀</p>
+          <p className="text-2xl font-bold text-gray-800">¡Jugar Ahora! 🚀</p>
         </div>
       </div>
     </div>
