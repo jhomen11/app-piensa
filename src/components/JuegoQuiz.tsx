@@ -16,9 +16,15 @@ export const JuegoQuiz = ({ datos, onVolver }: JuegoQuizProps) => {
   
   // Estado de la pregunta actual
   const [mostrarPista, setMostrarPista] = useState(false)
+  const [imagenCargando, setImagenCargando] = useState(true)
 
   const seccionActual = datos.secciones[seccionActualIndex]
   const preguntaActual = seccionActual.preguntas[preguntaActualIndex]
+
+  // Resetear carga de imagen al cambiar de pregunta
+  useEffect(() => {
+    setImagenCargando(true)
+  }, [preguntaActualIndex, seccionActualIndex])
 
   const [respuestaSeleccionada, setRespuestaSeleccionada] = useState<Opcion | null>(null)
   const [mostrarResultado, setMostrarResultado] = useState(false)
@@ -227,8 +233,18 @@ export const JuegoQuiz = ({ datos, onVolver }: JuegoQuizProps) => {
                 </div>
 
                 {preguntaActual.imagen && (
-                  <div className="flex justify-center mb-6">
-                    <img src={preguntaActual.imagen} alt="Pregunta" className="max-w-md w-full rounded-lg shadow-md" />
+                  <div className="flex justify-center mb-6 relative min-h-[200px] items-center">
+                    {imagenCargando && (
+                      <div className="absolute inset-0 flex items-center justify-center bg-gray-100 rounded-lg animate-pulse">
+                        <div className="w-12 h-12 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
+                      </div>
+                    )}
+                    <img 
+                      src={preguntaActual.imagen} 
+                      alt="Pregunta" 
+                      className={`max-w-md w-full rounded-lg shadow-md transition-opacity duration-300 ${imagenCargando ? 'opacity-0' : 'opacity-100'}`}
+                      onLoad={() => setImagenCargando(false)}
+                    />
                   </div>
                 )}
 
