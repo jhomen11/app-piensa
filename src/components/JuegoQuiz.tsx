@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import type { JuegoData, Opcion } from '../data/niveles'
+import { ImageWithLoader } from './ImageWithLoader'
 
 interface JuegoQuizProps {
   datos: JuegoData
@@ -16,15 +17,9 @@ export const JuegoQuiz = ({ datos, onVolver }: JuegoQuizProps) => {
   
   // Estado de la pregunta actual
   const [mostrarPista, setMostrarPista] = useState(false)
-  const [imagenCargando, setImagenCargando] = useState(true)
 
   const seccionActual = datos.secciones[seccionActualIndex]
   const preguntaActual = seccionActual.preguntas[preguntaActualIndex]
-
-  // Resetear carga de imagen al cambiar de pregunta
-  useEffect(() => {
-    setImagenCargando(true)
-  }, [preguntaActualIndex, seccionActualIndex])
 
   const [respuestaSeleccionada, setRespuestaSeleccionada] = useState<Opcion | null>(null)
   const [mostrarResultado, setMostrarResultado] = useState(false)
@@ -200,9 +195,11 @@ export const JuegoQuiz = ({ datos, onVolver }: JuegoQuizProps) => {
                </div>
             ) : juegoCompletado ? (
               <div className="text-center py-8">
-                <div className="flex justify-center mb-6">
-                  <img src="https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/Victoria.gif" alt="Victoria" className="max-w-md w-full rounded-xl shadow-2xl" />
-                </div>
+                  <ImageWithLoader 
+                    src="https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/Victoria.gif" 
+                    alt="Victoria" 
+                    className="max-w-md w-full rounded-xl shadow-2xl" 
+                  />
                 <h1 className="text-5xl font-bold text-green-600 mb-4">🏆 ¡Victoria!</h1>
                 <p className="text-2xl text-gray-700 mb-8 font-medium">¡Felicidades! Has completado todos los niveles de {datos.titulo}</p>
                 
@@ -233,19 +230,12 @@ export const JuegoQuiz = ({ datos, onVolver }: JuegoQuizProps) => {
                 </div>
 
                 {preguntaActual.imagen && (
-                  <div className="flex justify-center mb-6 relative min-h-[200px] items-center">
-                    {imagenCargando && (
-                      <div className="absolute inset-0 flex items-center justify-center bg-gray-100 rounded-lg animate-pulse">
-                        <div className="w-12 h-12 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
-                      </div>
-                    )}
-                    <img 
-                      src={preguntaActual.imagen} 
-                      alt="Pregunta" 
-                      className={`max-w-md w-full rounded-lg shadow-md transition-opacity duration-300 ${imagenCargando ? 'opacity-0' : 'opacity-100'}`}
-                      onLoad={() => setImagenCargando(false)}
-                    />
-                  </div>
+                  <ImageWithLoader
+                    src={preguntaActual.imagen}
+                    alt="Pregunta"
+                    className="max-w-md w-full rounded-lg shadow-md"
+                    containerClassName="mb-6 min-h-[200px]"
+                  />
                 )}
 
                 {!mostrarResultado ? (
@@ -289,13 +279,17 @@ export const JuegoQuiz = ({ datos, onVolver }: JuegoQuizProps) => {
             ) : (
               <div className="text-center">
                 {esCorrecta ? (
-                  <div className="flex justify-center mb-4">
-                    <img src="https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/JokerFeliz.png" alt="Correcto" className="max-w-sm w-full rounded-lg shadow-lg" />
-                  </div>
+                    <ImageWithLoader 
+                      src="https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/JokerFeliz.png" 
+                      alt="Correcto" 
+                      className="max-w-sm w-full rounded-lg shadow-lg" 
+                    />
                 ) : (
-                  <div className="flex justify-center mb-4">
-                    <img src="https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/JokerTriste.png" alt="Incorrecto" className="max-w-sm w-full rounded-lg shadow-lg" />
-                  </div>
+                    <ImageWithLoader 
+                      src="https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/JokerTriste.png" 
+                      alt="Incorrecto" 
+                      className="max-w-sm w-full rounded-lg shadow-lg" 
+                    />
                 )}
                 <h2 className={`text-3xl font-bold mb-4 ${esCorrecta ? 'text-green-600' : 'text-red-600'}`}>
                   {esCorrecta ? '¡Correcto!' : 'Incorrecto'}
@@ -313,10 +307,11 @@ export const JuegoQuiz = ({ datos, onVolver }: JuegoQuizProps) => {
                         <p className="mb-2">¡Muy bien! Esa es la respuesta correcta.</p>
                         {preguntaActual.imagenExplicacionCorrecta && (
                           <div className="mt-3">
-                            <img 
+                            <ImageWithLoader 
                               src={preguntaActual.imagenExplicacionCorrecta} 
                               alt="Explicación" 
                               className="max-w-full h-auto rounded-lg shadow-sm border border-gray-200"
+                              containerClassName="min-h-[150px]"
                             />
                           </div>
                         )}
@@ -329,10 +324,11 @@ export const JuegoQuiz = ({ datos, onVolver }: JuegoQuizProps) => {
                         </p>
                         {respuestaSeleccionada?.imagenExplicacion && (
                           <div className="mt-3">
-                            <img 
+                            <ImageWithLoader 
                               src={respuestaSeleccionada.imagenExplicacion} 
                               alt="Explicación Error" 
                               className="max-w-full h-auto rounded-lg shadow-sm border border-gray-200"
+                              containerClassName="min-h-[150px]"
                             />
                           </div>
                         )}
