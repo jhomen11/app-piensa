@@ -166,7 +166,7 @@ export const JuegoQuiz = ({ datos, onVolver }: JuegoQuizProps) => {
     <div className="w-full min-h-screen flex items-center justify-center">
       <audio ref={audioFondoRef} loop />
       <audio ref={audioVictoriaRef}>
-        <source src="/recursos/victoria.mp3" type="audio/mpeg" />
+        <source src="https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/victoria.mp3" type="audio/mpeg" />
       </audio>
       <audio ref={audioPistaRef}>
         <source src="https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/Pista.mp3" type="audio/mpeg" />
@@ -195,7 +195,7 @@ export const JuegoQuiz = ({ datos, onVolver }: JuegoQuizProps) => {
             ) : juegoCompletado ? (
               <div className="text-center py-8">
                 <div className="flex justify-center mb-6">
-                  <img src="/recursos/img/Victoria.gif" alt="Victoria" className="max-w-md w-full rounded-xl shadow-2xl" />
+                  <img src="https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/Victoria.gif" alt="Victoria" className="max-w-md w-full rounded-xl shadow-2xl" />
                 </div>
                 <h1 className="text-5xl font-bold text-green-600 mb-4">🏆 ¡Victoria!</h1>
                 <p className="text-2xl text-gray-700 mb-8 font-medium">¡Felicidades! Has completado todos los niveles de {datos.titulo}</p>
@@ -274,11 +274,11 @@ export const JuegoQuiz = ({ datos, onVolver }: JuegoQuizProps) => {
               <div className="text-center">
                 {esCorrecta ? (
                   <div className="flex justify-center mb-4">
-                    <img src="/recursos/img/JokerFeliz.png" alt="Correcto" className="max-w-sm w-full rounded-lg shadow-lg" />
+                    <img src="https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/JokerFeliz.png" alt="Correcto" className="max-w-sm w-full rounded-lg shadow-lg" />
                   </div>
                 ) : (
                   <div className="flex justify-center mb-4">
-                    <img src="/recursos/img/JokerTriste.png" alt="Incorrecto" className="max-w-sm w-full rounded-lg shadow-lg" />
+                    <img src="https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/JokerTriste.png" alt="Incorrecto" className="max-w-sm w-full rounded-lg shadow-lg" />
                   </div>
                 )}
                 <h2 className={`text-3xl font-bold mb-4 ${esCorrecta ? 'text-green-600' : 'text-red-600'}`}>

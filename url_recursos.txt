@@ -1,9 +1,0 @@
-https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/DesafioFinalFondo.mp3
-https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/DesafioFondo.mp3
-https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/FondoTeoremas1.mp3
-https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/FondoTeoremas2.mp3
-https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/FondoTeoremas3.mp3
-https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/FondoTriangulos1.mp3
-https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/FondoTriangulos2.mp3
-https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/FondoTriangulos3.mp3
-https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/Pista.mp3

@@ -39,63 +39,63 @@ export const datosTriangulos: JuegoData = {
       preguntas: [
         {
           id: 1,
-          imagen: '/recursos/trigonometria/Sec1_Ejercicio1.jpg',
+          imagen: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio1.jpg',
           texto: '¿Qué tipo de triángulo es?',
           opciones: [
-            { texto: 'Obtusángulo', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec1_Ejercicio1.jpg' },
-            { texto: 'Rectángulo', esCorrecta: true, imagenExplicacion: '/recursos/trigonometria/Sec1_Ejercicio1.jpg' },
-            { texto: 'Equilátero', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec1_Ejercicio1.jpg' }
+            { texto: 'Obtusángulo', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio1.jpg' },
+            { texto: 'Rectángulo', esCorrecta: true, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio1.jpg' },
+            { texto: 'Equilátero', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio1.jpg' }
           ],
           pista: 'Uno de sus ángulos mide 90°.',
-          imagenExplicacionCorrecta: '/recursos/trigonometria/Sec1_Ejercicio1.jpg'
+          imagenExplicacionCorrecta: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio1.jpg'
         },
         {
           id: 2,
-          imagen: '/recursos/trigonometria/Sec1_Ejercicio2.png',
+          imagen: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio2.png',
           texto: '¿Qué tipo de triángulo es?',
           opciones: [
-            { texto: 'Escaleno', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec1_Ejercicio2.png' },
-            { texto: 'Equilátero', esCorrecta: true, imagenExplicacion: '/recursos/trigonometria/Sec1_Ejercicio2.png' },
-            { texto: 'Isósceles', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec1_Ejercicio2.png' }
+            { texto: 'Escaleno', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio2.png' },
+            { texto: 'Equilátero', esCorrecta: true, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio2.png' },
+            { texto: 'Isósceles', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio2.png' }
           ],
           pista: 'Es el único donde los tres lados son iguales.',
-          imagenExplicacionCorrecta: '/recursos/trigonometria/Sec1_Ejercicio2.png'
+          imagenExplicacionCorrecta: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio2.png'
         },
         {
           id: 3,
-          imagen: '/recursos/trigonometria/Sec1_Ejercicio3.jpg',
+          imagen: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio3.jpg',
           texto: '¿Qué tipo de triángulo es?',
           opciones: [
-            { texto: 'Acutángulo', esCorrecta: true, imagenExplicacion: '/recursos/trigonometria/Sec1_Ejercicio3.jpg' },
-            { texto: 'Rectángulo', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec1_Ejercicio3.jpg' },
-            { texto: 'Obtusángulo', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec1_Ejercicio3.jpg' }
+            { texto: 'Acutángulo', esCorrecta: true, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio3.jpg' },
+            { texto: 'Rectángulo', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio3.jpg' },
+            { texto: 'Obtusángulo', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio3.jpg' }
           ],
           pista: 'Cuando todos sus ángulos son menores de 90°.',
-          imagenExplicacionCorrecta: '/recursos/trigonometria/Sec1_Ejercicio3.jpg'
+          imagenExplicacionCorrecta: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio3.jpg'
         },
         {
           id: 4,
-          imagen: '/recursos/trigonometria/Sec1_Ejercicio4.jpg',
+          imagen: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio4.jpg',
           texto: '¿Qué tipo de triángulo es?',
           opciones: [
-            { texto: 'Obtusángulo', esCorrecta: true, imagenExplicacion: '/recursos/trigonometria/Sec1_Ejercicio4.jpg' },
-            { texto: 'Rectángulo', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec1_Ejercicio4.jpg' },
-            { texto: 'Acutángulo', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec1_Ejercicio4.jpg' }
+            { texto: 'Obtusángulo', esCorrecta: true, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio4.jpg' },
+            { texto: 'Rectángulo', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio4.jpg' },
+            { texto: 'Acutángulo', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio4.jpg' }
           ],
           pista: 'Tiene un ángulo mayor de 90°.',
-          imagenExplicacionCorrecta: '/recursos/trigonometria/Sec1_Ejercicio4.jpg'
+          imagenExplicacionCorrecta: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio4.jpg'
         },
         {
           id: 5,
-          imagen: '/recursos/trigonometria/Sec1_Ejercicio5.jpg',
+          imagen: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio5.jpg',
           texto: '¿Qué tipo de triángulo es?',
           opciones: [
-            { texto: 'Isósceles', esCorrecta: true, imagenExplicacion: '/recursos/trigonometria/Sec1_Ejercicio5.jpg' },
-            { texto: 'Equilátero', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec1_Ejercicio5.jpg' },
-            { texto: 'Escaleno', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec1_Ejercicio5.jpg' }
+            { texto: 'Isósceles', esCorrecta: true, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio5.jpg' },
+            { texto: 'Equilátero', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio5.jpg' },
+            { texto: 'Escaleno', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio5.jpg' }
           ],
           pista: 'Se reconoce porque tiene exactamente dos lados iguales.',
-          imagenExplicacionCorrecta: '/recursos/trigonometria/Sec1_Ejercicio5.jpg'
+          imagenExplicacionCorrecta: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio5.jpg'
         }
       ]
     },
@@ -108,45 +108,45 @@ export const datosTriangulos: JuegoData = {
           id: 6,
           texto: 'Si cos(θ) = 0, ¿cuál podría ser un valor de θ?',
           opciones: [
-            { texto: '0°', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec2_IncorrectaA_Eje1.png' }, // Asumido por contexto aunque no estaba en lista explícita, corregiré si falla
+            { texto: '0°', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec2_IncorrectaA_Eje1.png' }, // Asumido por contexto aunque no estaba en lista explícita, corregiré si falla
             { texto: '90°', esCorrecta: true },
-            { texto: '180°', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec2_IncorrectaC_eje1.png' }
+            { texto: '180°', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec2_IncorrectaC_eje1.png' }
           ],
           pista: 'El coseno vale cero cuando el ángulo está justo entre los ejes.',
-          imagenExplicacionCorrecta: '/recursos/trigonometria/Sec2_CorrectaEje1.png'
+          imagenExplicacionCorrecta: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec2_CorrectaEje1.png'
         },
         {
           id: 7,
           texto: 'Si un ángulo agudo tiene un seno de 1/2, ¿cuál puede ser su medida?',
           opciones: [
             { texto: '30°', esCorrecta: true },
-            { texto: '45°', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec2_IncorrectaB_Eje2.png' },
-            { texto: '60°', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec2_IncorrectaC_Eje2.png' }
+            { texto: '45°', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec2_IncorrectaB_Eje2.png' },
+            { texto: '60°', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec2_IncorrectaC_Eje2.png' }
           ],
           pista: 'El seno de 1/2 corresponde al ángulo más pequeño del trío 30°–45°–60°.',
-          imagenExplicacionCorrecta: '/recursos/trigonometria/Sec2_CorrectaEje2.png'
+          imagenExplicacionCorrecta: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec2_CorrectaEje2.png'
         },
         {
           id: 8,
           texto: 'Si en un triángulo rectángulo el seno de θ es 3/5, ¿cuánto vale el coseno?',
           opciones: [
             { texto: '4/5', esCorrecta: true },
-            { texto: '3/5', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec2_IncorrectaB_Eje3.png' },
-            { texto: '5/3', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec2_IncorrectaC_Eje3.png' }
+            { texto: '3/5', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec2_IncorrectaB_Eje3.png' },
+            { texto: '5/3', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec2_IncorrectaC_Eje3.png' }
           ],
           pista: 'Completa el triángulo con Pitágoras (3-4-5).',
-          imagenExplicacionCorrecta: '/recursos/trigonometria/Sec2_CorrectaEje3.png'
+          imagenExplicacionCorrecta: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec2_CorrectaEje3.png'
         },
         {
           id: 9,
           texto: '¿Cuál es la razón trigonométrica que se define como "cateto opuesto / cateto adyacente"?',
           opciones: [
-            { texto: 'Seno', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec2_IncorrectaA_Eje4.png' },
-            { texto: 'Coseno', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec2_IncorrectaB_Eje4.png' },
+            { texto: 'Seno', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec2_IncorrectaA_Eje4.png' },
+            { texto: 'Coseno', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec2_IncorrectaB_Eje4.png' },
             { texto: 'Tangente', esCorrecta: true }
           ],
           pista: 'Es el cociente entre catetos.',
-          imagenExplicacionCorrecta: '/recursos/trigonometria/Sec2_CorrectaEje4.png'
+          imagenExplicacionCorrecta: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec2_CorrectaEje4.png'
         }
       ]
     },
@@ -159,45 +159,45 @@ export const datosTriangulos: JuegoData = {
           id: 10,
           texto: 'Un árbol proyecta una sombra de 8 m. El ángulo con el sol es de 30°. ¿Cuánto mide el árbol? (tan 30° = 0.577)',
           opciones: [
-            { texto: '4.6 m', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec3_IncorrectaA_Eje1.png' },
-            { texto: '8 m', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec3_IncorrectaB_Eje1.png' },
+            { texto: '4.6 m', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec3_IncorrectaA_Eje1.png' },
+            { texto: '8 m', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec3_IncorrectaB_Eje1.png' },
             { texto: '4.62 m', esCorrecta: true }
           ],
           pista: 'Usa tan(30°) = altura / sombra.',
-          imagenExplicacionCorrecta: '/recursos/trigonometria/Sec3_CorrectaEje1.png'
+          imagenExplicacionCorrecta: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec3_CorrectaEje1.png'
         },
         {
           id: 11,
           texto: 'Un escalador ve la cima con un ángulo de elevación de 45° a 20 m de la base. ¿Qué altura le falta por subir?',
           opciones: [
-            { texto: '20 m', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec3_IncorrectaA_Eje2.png' },
-            { texto: '20√3', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec3_IncorrectaB_Eje2.png' },
+            { texto: '20 m', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec3_IncorrectaA_Eje2.png' },
+            { texto: '20√3', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec3_IncorrectaB_Eje2.png' },
             { texto: '20 m (tan 45° = 1)', esCorrecta: true }
           ],
           pista: 'Con 45°, la tangente vale 1.',
-          imagenExplicacionCorrecta: '/recursos/trigonometria/Sec3_CorrectaEje2.png'
+          imagenExplicacionCorrecta: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec3_CorrectaEje2.png'
         },
         {
           id: 12,
           texto: 'Si en un triángulo rectángulo el seno de θ es 3/5, ¿cuánto vale el coseno?',
           opciones: [
             { texto: '4/5', esCorrecta: true },
-            { texto: '3/5', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec3_IncorrectaB_Eje3.png' },
-            { texto: '5/3', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec3_IncorrectaC_Eje3.png' }
+            { texto: '3/5', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec3_IncorrectaB_Eje3.png' },
+            { texto: '5/3', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec3_IncorrectaC_Eje3.png' }
           ],
           pista: 'Triángulo 3-4-5.',
-          imagenExplicacionCorrecta: '/recursos/trigonometria/Sec3_CorrectaEje3.png'
+          imagenExplicacionCorrecta: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec3_CorrectaEje3.png'
         },
         {
           id: 13,
           texto: 'En un triángulo rectángulo, un cateto mide 9 y el ángulo adyacente mide 60°. ¿Cuál es la hipotenusa? (cos 60° = 0.5)',
           opciones: [
-            { texto: '4.5', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec4_IncorrectaA_eje4.png' },
+            { texto: '4.5', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec4_IncorrectaA_eje4.png' },
             { texto: '18', esCorrecta: true },
-            { texto: '9', esCorrecta: false, imagenExplicacion: '/recursos/trigonometria/Sec3_IncorrectaC_Eje4.png' }
+            { texto: '9', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec3_IncorrectaC_Eje4.png' }
           ],
           pista: 'cos = adyacente/hipotenusa.',
-          imagenExplicacionCorrecta: '/recursos/trigonometria/Sec3_CorrectaEje4.png'
+          imagenExplicacionCorrecta: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec3_CorrectaEje4.png'
         }
       ]
     }
@@ -217,50 +217,50 @@ export const datosTeoremas: JuegoData = {
         {
           id: 1,
           texto: 'Según el teorema de Pitágoras, ¿cuál es la ecuación correcta para catetos 6 y 8?',
-          imagen: '/recursos/teorema/Sec1_PreguntaEje1.jpg',
+          imagen: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/teorema/Sec1_PreguntaEje1.jpg',
           opciones: [
             { texto: 'c² = 6² + 8²', esCorrecta: true },
-            { texto: 'c = 6 + 8', esCorrecta: false, imagenExplicacion: '/recursos/teorema/Sec1_IncorrectaB_Eje1.png' },
-            { texto: 'c = 6² + 8²', esCorrecta: false, imagenExplicacion: '/recursos/teorema/Sec1_IncorrectaC_Eje1.png' }
+            { texto: 'c = 6 + 8', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/teorema/Sec1_IncorrectaB_Eje1.png' },
+            { texto: 'c = 6² + 8²', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/teorema/Sec1_IncorrectaC_Eje1.png' }
           ],
           pista: 'La hipotenusa siempre aparece elevada al cuadrado.',
-          imagenExplicacionCorrecta: '/recursos/teorema/Sec1_CorrectaEje1.png'
+          imagenExplicacionCorrecta: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/teorema/Sec1_CorrectaEje1.png'
         },
         {
           id: 2,
           texto: '¿Qué ecuación corresponde al teorema de Pitágoras para 9 y 12?',
-          imagen: '/recursos/teorema/Sec1_PreguntaEje2.jpg',
+          imagen: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/teorema/Sec1_PreguntaEje2.jpg',
           opciones: [
             { texto: 'c² = 9² + 12²', esCorrecta: true },
-            { texto: 'c = 9 + 12', esCorrecta: false, imagenExplicacion: '/recursos/teorema/Sec1_IncorrectaB_Eje2.png' },
-            { texto: 'c = 9² + 12²', esCorrecta: false, imagenExplicacion: '/recursos/teorema/Sec1_IncorrectaC_Eje2.png' }
+            { texto: 'c = 9 + 12', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/teorema/Sec1_IncorrectaB_Eje2.png' },
+            { texto: 'c = 9² + 12²', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/teorema/Sec1_IncorrectaC_Eje2.png' }
           ],
           pista: 'c² es la clave.',
-          imagenExplicacionCorrecta: '/recursos/teorema/Sec1_CorrectaEje2.png'
+          imagenExplicacionCorrecta: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/teorema/Sec1_CorrectaEje2.png'
         },
         {
           id: 3,
           texto: '¿Cuál es el seno del ángulo θ si opuesto=5 e hipotenusa=13?',
-          imagen: '/recursos/teorema/Sec1_PreguntaEje3.jpg',
+          imagen: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/teorema/Sec1_PreguntaEje3.jpg',
           opciones: [
             { texto: 'sin(θ) = 5/13', esCorrecta: true },
-            { texto: 'sin(θ) = 13/5', esCorrecta: false, imagenExplicacion: '/recursos/teorema/Sec1_IncorrectaB_Eje3.png' },
-            { texto: 'sin(θ) = 12/13', esCorrecta: false, imagenExplicacion: '/recursos/teorema/Sec1_IncorrectaC_Eje3.png' }
+            { texto: 'sin(θ) = 13/5', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/teorema/Sec1_IncorrectaB_Eje3.png' },
+            { texto: 'sin(θ) = 12/13', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/teorema/Sec1_IncorrectaC_Eje3.png' }
           ],
           pista: 'Opuesto / Hipotenusa.',
-          imagenExplicacionCorrecta: '/recursos/teorema/Sec1_CorrectaEje3.png'
+          imagenExplicacionCorrecta: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/teorema/Sec1_CorrectaEje3.png'
         },
         {
           id: 4,
           texto: '¿Cuál es el coseno de θ si adyacente=7 e hipotenusa=25?',
-          imagen: '/recursos/teorema/Sec1_PreguntaEje4.jpg',
+          imagen: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/teorema/Sec1_PreguntaEje4.jpg',
           opciones: [
             { texto: 'cos(θ) = 7/25', esCorrecta: true },
-            { texto: 'cos(θ) = 25/7', esCorrecta: false, imagenExplicacion: '/recursos/teorema/Sec1_IncorrectaB_Eje4.png' },
-            { texto: 'cos(θ) = 24/25', esCorrecta: false, imagenExplicacion: '/recursos/teorema/Sec1_IncorrectaC_Eje4.png' }
+            { texto: 'cos(θ) = 25/7', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/teorema/Sec1_IncorrectaB_Eje4.png' },
+            { texto: 'cos(θ) = 24/25', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/teorema/Sec1_IncorrectaC_Eje4.png' }
           ],
           pista: 'Adyacente / Hipotenusa.',
-          imagenExplicacionCorrecta: '/recursos/teorema/Sec1_CorrectaEje4.png'
+          imagenExplicacionCorrecta: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/teorema/Sec1_CorrectaEje4.png'
         }
       ]
     },
