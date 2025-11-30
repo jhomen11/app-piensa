@@ -42,45 +42,45 @@ export const datosTriangulos: JuegoData = {
           imagen: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio1.jpg',
           texto: '¿Qué tipo de triángulo es?',
           opciones: [
-            { texto: 'Obtusángulo', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio1.jpg' },
-            { texto: 'Rectángulo', esCorrecta: true, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio1.jpg' },
-            { texto: 'Equilátero', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio1.jpg' }
+            { texto: 'Obtusángulo', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_IncorrectaA_Eje1.png' },
+            { texto: 'Rectángulo', esCorrecta: true, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_CorrectaEje1.png' },
+            { texto: 'Equilátero', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_IncorrectaB_Eje1.png' }
           ],
           pista: 'Uno de sus ángulos mide 90°.',
-          imagenExplicacionCorrecta: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio1.jpg'
+          imagenExplicacionCorrecta: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_CorrectaEje1.png'
         },
         {
           id: 2,
           imagen: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio2.png',
           texto: '¿Qué tipo de triángulo es?',
           opciones: [
-            { texto: 'Escaleno', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio2.png' },
-            { texto: 'Equilátero', esCorrecta: true, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio2.png' },
-            { texto: 'Isósceles', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio2.png' }
+            { texto: 'Escaleno', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_IncorrectaA_Eje2.png' },
+            { texto: 'Equilátero', esCorrecta: true, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_CorrectaEje2.png' },
+            { texto: 'Isósceles', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_IncorrectaC_Eje2.png' }
           ],
           pista: 'Es el único donde los tres lados son iguales.',
-          imagenExplicacionCorrecta: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio2.png'
+          imagenExplicacionCorrecta: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_CorrectaEje2.png'
         },
         {
           id: 3,
           imagen: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio3.jpg',
           texto: '¿Qué tipo de triángulo es?',
           opciones: [
-            { texto: 'Acutángulo', esCorrecta: true, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio3.jpg' },
-            { texto: 'Rectángulo', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio3.jpg' },
-            { texto: 'Obtusángulo', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio3.jpg' }
+            { texto: 'Acutángulo', esCorrecta: true, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_CorrectaEje3.png' },
+            { texto: 'Rectángulo', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_IncorrectaB_Eje3.png' },
+            { texto: 'Obtusángulo', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_IncorrectaC_Eje3.png' }
           ],
           pista: 'Cuando todos sus ángulos son menores de 90°.',
-          imagenExplicacionCorrecta: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio3.jpg'
+          imagenExplicacionCorrecta: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_CorrectaEje3.png'
         },
         {
           id: 4,
           imagen: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio4.jpg',
           texto: '¿Qué tipo de triángulo es?',
           opciones: [
-            { texto: 'Obtusángulo', esCorrecta: true, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio4.jpg' },
-            { texto: 'Rectángulo', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio4.jpg' },
-            { texto: 'Acutángulo', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio4.jpg' }
+            { texto: 'Obtusángulo', esCorrecta: true, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_CorrectaEje4.png' },
+            { texto: 'Rectángulo', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_IncorrectaB_Eje4.png' },
+            { texto: 'Acutángulo', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_IncorrectaC_Eje4.png' }
           ],
           pista: 'Tiene un ángulo mayor de 90°.',
           imagenExplicacionCorrecta: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio4.jpg'
@@ -91,11 +91,11 @@ export const datosTriangulos: JuegoData = {
           texto: '¿Qué tipo de triángulo es?',
           opciones: [
             { texto: 'Isósceles', esCorrecta: true, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio5.jpg' },
-            { texto: 'Equilátero', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio5.jpg' },
-            { texto: 'Escaleno', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio5.jpg' }
+            { texto: 'Equilátero', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_IncorrectaB_Eje5.png' },
+            { texto: 'Escaleno', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_IncorrectaC_Eje5.png' }
           ],
           pista: 'Se reconoce porque tiene exactamente dos lados iguales.',
-          imagenExplicacionCorrecta: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio5.jpg'
+          imagenExplicacionCorrecta: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_CorrectaEje5.png'
         }
       ]
     },

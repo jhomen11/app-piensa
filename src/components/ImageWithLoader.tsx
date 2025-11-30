@@ -24,6 +24,7 @@ export const ImageWithLoader = ({ containerClassName = "", className = "", alt, 
         alt={alt}
         className={`${className} transition-opacity duration-300 ${isLoading ? 'opacity-0' : 'opacity-100'}`}
         onLoad={() => setIsLoading(false)}
+        onError={() => setIsLoading(false)}
       />
     </div>
   )
