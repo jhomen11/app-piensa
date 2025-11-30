@@ -83,7 +83,7 @@ export const datosTriangulos: JuegoData = {
             { texto: 'Acutángulo', esCorrecta: false, imagenExplicacion: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_IncorrectaC_Eje4.png' }
           ],
           pista: 'Tiene un ángulo mayor de 90°.',
-          imagenExplicacionCorrecta: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_Ejercicio4.jpg'
+          imagenExplicacionCorrecta: 'https://dyirjsrazplsyupwtupn.supabase.co/storage/v1/object/public/app-pi-ensa-recursos/trigonometria/Sec1_CorrectaEje4.png'
         },
         {
           id: 5,
